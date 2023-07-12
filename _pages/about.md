@@ -19,8 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a 4th year Ph.D. Candidate Biomedical Informatics advised  at UC San Francisco and UC Berkeley advised by
+[Atul J. Butte](https://en.wikipedia.org/wiki/Atul_Butte) and [Ahmed M. Alaa](https://ahmedmalaa.github.io). I have a keen passion for computational pathology, actively collaborating with clinical experts to develop and implement cutting-edge deep learning algorithms for the diagnosis and characterization of hematology malignancies. Additionally, I am intrigued by the field of synthetic data generation, which allows me to create realistic data for various applications. Furthermore, I possess experience in working with clinical notes and genomic data. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Outside of my professional pursuits, I find enjoyment in indulging in Japanese Manga, with [One Piece](https://en.wikipedia.org/wiki/One_Piece) being my favorite. 
