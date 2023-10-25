@@ -50,7 +50,14 @@
     "studyType": "MS",
     "startDate": "2022-09",
     "endDate": "2024-06",
-    "degree": "Master of Science"}
+    "degree": "Master of Science"},
+    {
+      "institution": "Nankai University",
+      "area": "Biology",
+      "studyType": "BS",
+      "startDate": "2015-09",
+      "endDate": "2019-06"
+    }
   ],
   "certificates": [],
   "publications": [],
