@@ -11,7 +11,12 @@ profile:
   more_info: >
     <p>I'm not always a boring PhD student;</p>
     <p>sometimes, I sleep.</p>
+
 research_interests:
+  - Machine Learning
+  - Artificial Intelligence
+  - Deep Learning
+  - Natural Language Processing
 
 news: True  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts

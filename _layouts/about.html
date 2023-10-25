@@ -41,6 +41,18 @@ layout: default
             {{ content }}
           </div>
 
+          <!-- Research Interests -->
+          {% if page.research_interests %}
+          <div class="research-interests">
+              <h2>Research Interests</h2>
+              <ul>
+              {% for interest in page.research_interests %}
+                  <li>{{ interest }}</li>
+              {% endfor %}
+              </ul>
+          </div>
+          {% endif %}
+
           <!-- News -->
           {% if page.news and site.announcements.enabled -%}
             <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
