@@ -2,15 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: 孙圣桓
 
 profile:
   align: right
   image: prof_pic.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>330 S Chester Ave</p>
-    <p>,Pasadena,CA 91125</p>
+    <p>I'm not always a boring PhD student;</p>
+    <p>sometimes, I sleep。</p>
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
