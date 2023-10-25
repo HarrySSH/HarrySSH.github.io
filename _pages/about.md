@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>I'm not always a boring PhD student;</p>
-    <p>sometimes, I sleep。</p>
+    <p>sometimes, I sleep.</p>
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
