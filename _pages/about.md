@@ -13,10 +13,12 @@ profile:
     <p>sometimes, I sleep.</p>
 
 research_interests:
-  - Machine Learning
-  - Artificial Intelligence
-  - Deep Learning
-  - Natural Language Processing
+  - title: Vision Language Model
+    description: Medical questions are by nature multi-modal. How can AI understand the question given the image and prompt? And how to make it trustworthy to clinicians?
+  - title: AI-based Diagnosis and Discovery
+    description: Can AI handle medical diagnosis tasks as well as clinicians? I have developed a series of tools to assist the process of diagnosing leukemia diseases.
+  - title: Synthetic Data & Generative AI
+    description: I am interested in methods to generate synthetic medical images and adjust them based on human feedback.
 
 news: True  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
