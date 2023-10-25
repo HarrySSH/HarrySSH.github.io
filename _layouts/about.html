@@ -44,11 +44,10 @@ layout: default
           <!-- Research Interests -->
           {% if page.research_interests %}
           <div class="research-interests">
-              <h2>Research Interests</h2>
-              {% for interest in page.research_interests %}
-                  <h3>{{ interest.title }}</h3>
-                  <p>{{ interest.description }}</p>
-              {% endfor %}
+            <h2>Research Interests</h2>
+            {% for interest in page.research_interests %}
+            <p><strong>{{ interest.title }}</strong>: {{ interest.description }}</p>
+            {% endfor %}
           </div>
           {% endif %}
 
