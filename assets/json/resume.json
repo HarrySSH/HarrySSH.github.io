@@ -41,22 +41,22 @@
       "institution": "University of California, San Francisco",
       "area": "Machine learning in Medicine",
       "studyType": "PhD",
-      "startDate": "2020-09",
+      "startDate": "",
       "endDate": "present",
       "advisor": "Dr. Atul Butte (UCSF), Dr. Ahmed Alaa (UC Berkeley)"
     },
     {"institution": "Georgia Institute of Technology",
     "area": "Computer Science",
     "studyType": "MS",
-    "startDate": "2022-09",
-    "endDate": "2024-06",
+    "startDate": "2022",
+    "endDate": "2024",
     "degree": "Master of Science"},
     {
       "institution": "Nankai University",
       "area": "Biology",
       "studyType": "BS",
-      "startDate": "2015-09",
-      "endDate": "2019-06"
+      "startDate": "2015",
+      "endDate": "2019"
     }
   ],
   "certificates": [],
