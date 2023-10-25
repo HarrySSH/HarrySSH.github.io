@@ -2,35 +2,31 @@
   type: map
   contents:
     - name: Full Name
-      value: Harry(Shenghuan) Sun
+      value: Albert Einstein
     - name: Date of Birth
-      value: 14th Augut 1997
+      value: 14th March 1879
     - name: Languages
-      value: English, Mandarin
+      value: English, German
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of California, San Francisco
-      year: 2020 - present
+      institution: University of Zurich, Zurich, Switzerland
+      year: 1905
       description:
-        - Degree: PhD in Biomedical Informatics
-        - Advisors: Atul Butte (UCSF), Ahmed Alaa (UCB)
-        - Thesis: Advancing computational approaches for characterizing and diagnosing hematologic malignancies
-        - title: Graduate student researcher
+        - Description 1.
+        - Description 2.
+        - title: Description 3.
           contents:
-            - Conducted deep learning based computational analysis on medical images, clinical notes, electronic health records (EHR), and ge‑
-nomic data under the guidance of Professors Atul Butte (UCSF), Ahmed Alaa (UCB), and Iain Carmicheal (UCB).
-            - Developed seven first (co first) author manuscripts, including publications in top‑tier journals in both computer science and biology.
-            - Collaborated with clinical teams at MSKCC to deploy deep learning models for real‑life clinical applications.
-            - Received comprehensive training in computational pathology, aligning with my research interests.
-    - title: MS
-      institution: Georgia Institute of Technology
-      year: 2022 - 2024
+            - Sub-description 1.
+            - Sub-description 2.
+    - title: Federal teaching diploma
+      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
+      year: 1900
       description:
-        - Degree: MS in Computer Science
-        - Track: Machine Learning
+        - Description 1.
+        - Description 2.
 
 - title: Experience
   type: time_table
