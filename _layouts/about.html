@@ -53,6 +53,7 @@ layout: default
 
           <!-- News -->
           {% if page.news and site.announcements.enabled -%}
+          <div class="news">
             <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
             {%- include news.html limit=true %}
           {%- endif %}
