@@ -18,3 +18,13 @@ $max-content-width: {{ site.max_width }};
   "font-awesome/solid",
   "font-awesome/regular"
 ;
+
+/* Research Interests title */
+.research-interests h2 {
+  font-size: 1.5em; /* Smaller than the main title */
+  font-weight: bold; /* Making it bold */
+  font-family: 'Georgia', serif; /* A different font for distinction. Change this as desired */
+}
+
+
+
