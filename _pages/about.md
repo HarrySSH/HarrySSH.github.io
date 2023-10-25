@@ -19,6 +19,8 @@ research_interests:
     description: With the increasing complexities in medical diagnostics, I'm investigating the potential of AI to match or even surpass clinician accuracy in certain diagnostic tasks. My recent endeavors have led to the development of advanced tools tailored for leukemia detection and diagnosis, offering promising avenues for rapid and accurate disease identification.
   - title: Synthetic Data & Generative AI
     description: Facing both scarcity and privacy concerns in medical data, I view synthetic data as a transformative solution. Yet, its true potential is unlocked only when meeting clinical standards. I've pioneered human-in-the-loop techniques to achieve this, and I'm enthusiastic about pushing boundaries in this domain further.
+  - title: Self Supervised Learning in Medical Imagery
+    description: The intricacies and sparse annotations of medical imaging demand an approach beyond traditional supervised techniques. Venturing into self-supervised learning, I'm delving into the potential of discerning complex patterns in the absence of annotations. My interest lies in developing robust representation learning techniques, which can serve as a foundational bedrock when bridging image modality with other modalities such as clinical notes, electronic health records, genomic sequences, and wearable device data.
 
 news: True  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
