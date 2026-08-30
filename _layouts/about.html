@@ -26,7 +26,7 @@ layout: default
               {% include figure.html
               path=profile_image_path
               class=profile_image_class
-              alt=page.profile.image
+              alt="Harry D. Sun"
               cache_bust=true -%}
             {% endif -%}
             {%- if page.profile.more_info %}
@@ -40,6 +40,23 @@ layout: default
           <div class="clearfix">
             {{ content }}
           </div>
+
+          {% if page.selected_work %}
+          <div class="selected-work">
+            <h2>Selected work</h2>
+            <div class="work-grid">
+              {% for work in page.selected_work %}
+              <article class="work-card">
+                <h3>{% if work.url %}<a href="{{ work.url }}" target="_blank" rel="noopener">{{ work.title }}</a>{% else %}{{ work.title }}{% endif %}</h3>
+                {% if work.meta %}<p class="work-meta">{{ work.meta }}</p>{% endif %}
+                <p><strong>Problem.</strong> {{ work.problem }}</p>
+                <p><strong>What I did.</strong> {{ work.did }}</p>
+                <p><strong>Outcome.</strong> {{ work.outcome }}</p>
+              </article>
+              {% endfor %}
+            </div>
+          </div>
+          {% endif %}
 
           <!-- Research Interests -->
           {% if page.research_interests %}

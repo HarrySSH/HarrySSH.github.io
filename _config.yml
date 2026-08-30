@@ -8,14 +8,12 @@ middle_name: D.
 last_name: Sun
 email: shenghuan.sun@ucsf.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Senior Machine Learning Scientist at Intuitive Surgical and Adjunct Assistant Professor at UCSF. Computational pathology, medical vision-language models, and AI for clinical diagnosis.
-footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: Harry Sun, Shenghuan Sun, computational pathology, medical AI, machine learning, Intuitive Surgical, UCSF
+  Senior ML scientist at Intuitive. Computational pathology AI built for human-level performance and the clinic, including FDA-regulated product work.
+footer_text: ""
+keywords: Harry Sun, Shenghuan Sun, computational pathology, medical AI, machine learning, Intuitive Surgical, UCSF, DeepHeme
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 🤖🩺   # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favicon.svg   # filename in /assets/img/
 
 url: https://harryssh.github.io/ # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
@@ -30,7 +28,7 @@ impressum_path:  # set to path to include impressum link in the footer, use the 
 repo_theme_light: default       # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_theme_dark: dark           # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
-  enabled: true
+  enabled: false
   theme_light: flat    # https://github.com/ryo-ma/github-profile-trophy
   theme_dark: gitdimmed  # https://github.com/ryo-ma/github-profile-trophy
 
@@ -40,7 +38,7 @@ repo_trophies:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -58,9 +56,9 @@ max_width: 800px
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+og_image: assets/img/prof_pic.jpeg # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Social integration
