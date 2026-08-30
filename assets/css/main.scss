@@ -32,5 +32,21 @@ $max-content-width: {{ site.max_width }};
   font-family: 'Georgia', serif; /* A different font for distinction. Change this as desired */
 }
 
+.remembering-atul {
+  figure {
+    margin-bottom: 0;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .caption {
+    margin-top: 0.75rem;
+    margin-bottom: 1.75rem;
+  }
+}
+
 
 
