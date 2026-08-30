@@ -2,14 +2,40 @@
  * Content
  ******************************************************************************/
 
+html {
+  background-color: var(--global-bg-color);
+}
+
 body {
+  isolation: isolate;
   padding-bottom: 70px;
   color: var(--global-text-color);
-  background-color: var(--global-bg-color);
+  background-color: transparent;
 
   h1, h2, h3, h4, h5, h6 {
     scroll-margin-top: 66px;
   }
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  pointer-events: none;
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background-color: var(--global-bg-overlay);
+  pointer-events: none;
 }
 
 body.fixed-top-nav {
