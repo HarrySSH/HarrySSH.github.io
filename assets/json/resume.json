@@ -1,65 +1,174 @@
 {
   "basics": {
-    "name": "Harry(Shenghuan) Sun",
-    "label": "AI for Medicine",
-    "image": "",
-    "summary": "Passionate researcher specialising in AI for medicine, dedicated to advancing medical diagnosis and treatment through cutting-edge artificial intelligence techniques."
-    
+    "name": "Harry (Shenghuan) Sun",
+    "label": "Senior Machine Learning Scientist",
+    "email": "shenghuan.sun@ucsf.edu",
+    "url": "https://harryssh.github.io/",
+    "summary": "Senior ML Scientist at Intuitive Surgical and Adjunct Assistant Professor at UCSF. I build and deploy computer vision and multimodal AI systems for computational pathology, from research through production in regulated clinical settings."
   },
   "work": [
     {
-      "name": "Ruby Robotics",
-      "position": "Machine Learning Engineer",
-      "startDate": "Sept 2023",
-      "endDate": "present",
-      "summary": [
-        "Developed and deployed DL models for computational pathology, integrating EHR data to solve real‑world problems."
+      "name": "Intuitive Surgical",
+      "position": "Senior Machine Learning Scientist",
+      "url": "https://www.intuitive.com/",
+      "startDate": "2025-11",
+      "summary": "ROSE team. Developing AI systems for real-time computational pathology in a regulated medical setting.",
+      "highlights": [
+        "Lead research, development, and deployment of computer vision models to support clinical decision-making and next-generation surgical workflows.",
+        "Work across large-scale pathology data, model validation, and production systems."
       ]
     },
-    {"name":"Bakar Computational Health Sciences Institute | UCSF/UCB Computational Precision Health",
-    "position":"Graduate Student Researcher",
-    "startDate":"Sept 2021",
-    "endDate":"present",
-    "summary":[ "Conducted deep learning based computational analysis on medical images, clinical notes, etc under the guidance of Professors Atul Butte (UCSF), Ahmed Alaa (UCB)"
-  ]}],
-  "volunteer": [],
+    {
+      "name": "University of California, San Francisco",
+      "position": "Adjunct Assistant Professor",
+      "url": "https://www.ucsf.edu/",
+      "startDate": "2024-09",
+      "summary": "Teaching and mentoring at the intersection of machine learning and biomedicine.",
+      "highlights": [
+        "Taught the inaugural Foundations in Machine Learning course for the AI and Computational Drug Discovery and Development (AICD3) MS program.",
+        "Mentor graduate students on research projects in medical vision-language models.",
+        "Designed and delivered curriculum covering core machine learning concepts and applications in biomedical domains."
+      ]
+    },
+    {
+      "name": "Ruby Robotics (acquired by Intuitive Surgical)",
+      "position": "Lead Machine Learning Scientist",
+      "url": "https://www.linkedin.com/company/ruby-robotics",
+      "startDate": "2024-04",
+      "endDate": "2025-11",
+      "summary": "Founding ML hire. Built the machine learning effort from the ground up until acquisition.",
+      "highlights": [
+        "Led research, development, and deployment of computer vision models for computational pathology, including weakly supervised learning and large-scale image analysis.",
+        "Built end-to-end ML systems spanning data curation, annotation infrastructure, model training, and deployment for real-world clinical workflows."
+      ]
+    },
+    {
+      "name": "Ruby Robotics",
+      "position": "Machine Learning Engineer",
+      "url": "https://www.linkedin.com/company/ruby-robotics",
+      "startDate": "2023-09",
+      "endDate": "2024-04",
+      "summary": "Early engineering hire developing deep learning models for computational pathology."
+    },
+    {
+      "name": "University of California, San Francisco",
+      "position": "Graduate Student Researcher",
+      "url": "https://www.ucsf.edu/",
+      "startDate": "2020-09",
+      "endDate": "2024-03",
+      "summary": "PhD research co-advised by Prof. Atul Butte (UCSF) and Prof. Ahmed Alaa (UC Berkeley EECS).",
+      "highlights": [
+        "Developed deep learning frameworks for computational pathology, including DeepHeme for bone marrow cytomorphology classification.",
+        "Built multimodal models integrating pathology images and clinical data, including medical vision-language models (VLMs).",
+        "Applied large language models to extract information from 6M+ patients (100M+ clinical notes) for real-world evidence generation.",
+        "Publications in Nature Medicine, Science Translational Medicine, Circulation, Nature Communications, and NeurIPS."
+      ]
+    },
+    {
+      "name": "Tsinghua University",
+      "position": "Machine Learning Researcher",
+      "url": "https://www.tsinghua.edu.cn/",
+      "startDate": "2020-09",
+      "endDate": "2021-01",
+      "summary": "Visiting machine learning researcher in Beijing."
+    },
+    {
+      "name": "Institute of Automation, Chinese Academy of Sciences",
+      "position": "Machine Learning Researcher",
+      "url": "https://www.ia.ac.cn/",
+      "startDate": "2020-04",
+      "endDate": "2020-08",
+      "summary": "Machine learning research at CASIA in Beijing."
+    },
+    {
+      "name": "Harvard Medical School",
+      "position": "Research Assistant",
+      "url": "https://hms.harvard.edu/",
+      "startDate": "2018-01",
+      "endDate": "2020-01",
+      "summary": "Visiting student researcher."
+    }
+  ],
   "education": [
     {
       "institution": "University of California, San Francisco",
-      "area": "Machine learning in Medicine",
+      "url": "https://www.ucsf.edu/",
+      "area": "Computational Biology",
       "studyType": "PhD",
       "startDate": "2020",
       "endDate": "2024",
-      "advisor": "Dr. Atul Butte (UCSF), Dr. Ahmed Alaa (UC Berkeley)"
+      "location": "San Francisco, CA",
+      "courses": [
+        "Advised by Dr. Atul Butte (UCSF) and Dr. Ahmed Alaa (UC Berkeley)"
+      ]
     },
-    {"institution": "Georgia Institute of Technology",
-    "area": "Computer Science",
-    "studyType": "MS",
-    "startDate": "2022",
-    "endDate": "2024",
-    "degree": "Master of Science"},
+    {
+      "institution": "University of California, Berkeley",
+      "url": "https://www.berkeley.edu/",
+      "area": "Computational Medicine",
+      "studyType": "Visiting PhD student",
+      "startDate": "2023",
+      "endDate": "2024",
+      "location": "Berkeley, CA"
+    },
+    {
+      "institution": "Georgia Institute of Technology",
+      "url": "https://www.gatech.edu/",
+      "area": "Computer Science",
+      "studyType": "MS",
+      "startDate": "2022",
+      "endDate": "2024",
+      "location": "Atlanta, GA"
+    },
     {
       "institution": "Nankai University",
+      "url": "https://www.nankai.edu.cn/",
       "area": "Biology",
       "studyType": "BS",
       "startDate": "2015",
-      "endDate": "2019"
+      "endDate": "2019",
+      "location": "Tianjin, China"
     }
   ],
-  "certificates": [],
-  "publications": [],
-  "skills": [],
+  "skills": [
+    {
+      "name": "Machine Learning",
+      "keywords": [
+        "Deep Learning",
+        "Computer Vision",
+        "Vision-Language Models",
+        "Weakly Supervised Learning",
+        "Multimodal ML"
+      ]
+    },
+    {
+      "name": "Medical AI",
+      "keywords": [
+        "Computational Pathology",
+        "Clinical NLP",
+        "Large Language Models",
+        "Precision Medicine",
+        "Real-world Evidence"
+      ]
+    },
+    {
+      "name": "Engineering",
+      "keywords": [
+        "Python",
+        "Model Deployment",
+        "Production ML Systems",
+        "Annotation Infrastructure"
+      ]
+    }
+  ],
   "languages": [
     {
-      "language": "Madarian",
+      "language": "Mandarin",
       "fluency": "Native speaker"
     },
     {
       "language": "English",
       "fluency": "Fluent"
     }
-  ],
-  "interests": [],
-  "references": [],
-  "projects": []
+  ]
 }

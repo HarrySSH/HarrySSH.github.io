@@ -9,27 +9,30 @@ profile:
   image: prof_pic.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>I'm not always a boring PhD student;</p>
-    <p>sometimes, I sleep.</p>
+    <p>Senior ML Scientist @ Intuitive</p>
+    <p>Adjunct Assistant Professor @ UCSF</p>
 
 research_interests:
-  - title: Vision Language Model
-    description: Medicine frequently presents challenges that are inherently multi-modal, requiring both textual and visual understanding. My research in Vision Language Modeling seeks to enhance the AI's capability to interpret and act upon complex medical scenarios presented through images and textual prompts. Beyond this, I'm delving into building clinician trust in AI through transparent and reliable model behaviors.
+  - title: Computational Pathology
+    description: I build computer vision systems that read pathology images at clinical scale, from bone marrow cytomorphology to real-time tissue assessment. At Intuitive I work on the ROSE team, developing and deploying models that support intraoperative decision-making. This line of work grew out of DeepHeme and related tools for hematologic diagnosis, with an emphasis on models that generalize across hospitals and scanners.
+  - title: Vision Language Models
+    description: "Medicine is inherently multimodal. I work on vision-language models that jointly interpret images and clinical text, including conversational systems grounded in diagnostic pathways. The goal is models clinicians can actually trust: accurate in a single turn, and consistent with clinical reasoning across a full workup."
   - title: AI-based Diagnosis and Discovery
-    description: With the increasing complexities in medical diagnostics, I'm investigating the potential of AI to match or even surpass clinician accuracy in certain diagnostic tasks. My recent endeavors have led to the development of advanced tools tailored for leukemia detection and diagnosis, offering promising avenues for rapid and accurate disease identification.
+    description: I develop AI systems that match or exceed expert performance on diagnostic tasks, then push them toward deployment. Recent work includes hematopathologist-level bone marrow cell classification, slide-level diagnosis from blood smears, and a low-cost self-driving microscope for leukemia detection in resource-limited settings.
   - title: Synthetic Data & Generative AI
-    description: Facing both scarcity and privacy concerns in medical data, I view synthetic data as a transformative solution. Yet, its true potential is unlocked only when meeting clinical standards. I've pioneered human-in-the-loop techniques to achieve this, and I'm enthusiastic about pushing boundaries in this domain further.
-  - title: Self Supervised Learning in Medical Images
-    description: The intricacies and sparse annotations of medical imaging demand an approach beyond traditional supervised techniques. Venturing into self-supervised learning, I'm delving into the potential of discerning complex patterns in the absence of annotations. My interest lies in developing robust representation learning techniques, which can serve as a foundational bedrock when bridging image modality with other modalities such as clinical notes, electronic health records, genomic sequences, and wearable device data.
+    description: Medical data is scarce and privacy-sensitive. I treat synthetic data as useful only when it meets clinical standards, and have developed human-in-the-loop methods to align generated medical images with clinical knowledge. I also contribute to reporting standards for generative AI in health.
 
 news: True  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-🚀 Hello there! Welcome to my page! I'm currently diving deep into the exciting world of Computational Medicine at both UC San Francisco and UC Berkeley, co_advised by the [Atul Butte, MD, PhD](https://profiles.ucsf.edu/atul.butte) and [Ahmed Alaa, PhD](https://ahmedmalaa.github.io/)! 🌟 I also have the immense pleasure of working closely with the [Gregory Goldgof, MD, PhD](https://www.mskcc.org/cancer-care/doctors/gregory-goldgof) and [Iain Carmichael, PhD](https://idc9.github.io/). Each of these esteemed faculty members brings a unique perspective, blending cutting-edge AI techniques with deep insights from clinical sciences. Their individual expertise enriches my academic journey, making every project a new learning adventure.
+Hello! I'm a Senior Machine Learning Scientist at [Intuitive Surgical](https://www.intuitive.com/), where I work on the ROSE team building AI systems for real-time computational pathology. I lead research, development, and deployment of computer vision models that support clinical decision-making and next-generation surgical workflows, across large-scale pathology data, model validation, and production systems in a regulated medical setting.
 
-I'm on a thrilling journey at the crossroads of biomedical research and artificial intelligence, all with the goal of realizing the dream of precision medicine. I've had the fantastic opportunity to develop and deploy machine learning and deep learning strategies on vast biological and clinical datasets, ranging from biomedical images to intricate clinical notes and the genomic data. 🎉
+I am also an Adjunct Assistant Professor at [UC San Francisco](https://www.ucsf.edu/), where I mentor graduate students on medical vision-language models and taught the inaugural Foundations in Machine Learning course for the [AI and Computational Drug Discovery and Development (AICD3)](https://pharm.ucsf.edu/aicd3) MS program.
 
-Oh, and by the way, I absolutely adore the Japanese manga ["One Piece"](https://en.wikipedia.org/wiki/One_Piece)! 🏴‍☠️ Every new project I embark on feels like setting sail to a new island full of adventure. Just as the Straw Hat crew faces their challenges head-on, with honor and integrity, I approach each challenging project fearlessly, yet with care and bubbling excitement. Ready to explore and conquer new horizons, just like Luffy and his crew!
+I completed my PhD in Computational Biology at UCSF, co-advised by [Atul Butte, MD, PhD](https://profiles.ucsf.edu/atul.butte) and [Ahmed Alaa, PhD](https://ahmedmalaa.github.io/), and worked closely with [Gregory Goldgof, MD, PhD](https://www.mskcc.org/cancer-care/doctors/gregory-goldgof) and [Iain Carmichael, PhD](https://idc9.github.io/). Before Intuitive, I was the founding ML hire and later Lead Machine Learning Scientist at [Ruby Robotics](https://www.linkedin.com/company/ruby-robotics), which was acquired by Intuitive in late 2025.
 
+My research sits at the interface of biomedical science and artificial intelligence, with the goal of bringing reliable AI into real clinical workflows. I have developed and deployed machine learning methods on large-scale biological and clinical data, including biomedical images, clinical notes, and genomics.
+
+Oh, and I still absolutely adore the Japanese manga [*One Piece*](https://en.wikipedia.org/wiki/One_Piece). Every new project still feels like setting sail for a new island. Ready to explore, just like Luffy and his crew.

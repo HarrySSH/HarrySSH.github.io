@@ -1,6 +1,23 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"Sci. Transl. Med.":
+  url: https://www.science.org/journal/stm
 
-"PhysRev":
-  url: https://journals.aps.org/
+"Nat. Commun.":
+  url: https://www.nature.com/ncomms/
+
+"Commun. Med.":
+  url: https://www.nature.com/commsmed/
+
+"Nat. Med.":
+  url: https://www.nature.com/nm/
+
+"Circulation":
+  url: https://www.ahajournals.org/journal/circ
+
+"NeurIPS (Spotlight)":
+  url: https://neurips.cc/
+
+"Cell Rep.":
+  url: https://www.cell.com/cell-reports/home
+
+"Neuron":
+  url: https://www.cell.com/neuron/home
