@@ -14,13 +14,11 @@ profile:
 
 research_interests:
   - title: Computational Pathology
-    description: I build computer vision systems that read pathology images at clinical scale, from bone marrow cytomorphology to real-time tissue assessment. At Intuitive I work on the ROSE team, developing and deploying models that support intraoperative decision-making. This line of work grew out of DeepHeme and related tools for hematologic diagnosis, with an emphasis on models that generalize across hospitals and scanners.
-  - title: Vision Language Models
-    description: "Medicine is inherently multimodal. I work on vision-language models that jointly interpret images and clinical text, including conversational systems grounded in diagnostic pathways. The goal is models clinicians can actually trust: accurate in a single turn, and consistent with clinical reasoning across a full workup."
-  - title: AI-based Diagnosis and Discovery
-    description: I develop AI systems that match or exceed expert performance on diagnostic tasks, then push them toward deployment. Recent work includes hematopathologist-level bone marrow cell classification, slide-level diagnosis from blood smears, and a low-cost self-driving microscope for leukemia detection in resource-limited settings.
-  - title: Synthetic Data & Generative AI
-    description: Medical data is scarce and privacy-sensitive. I treat synthetic data as useful only when it meets clinical standards, and have developed human-in-the-loop methods to align generated medical images with clinical knowledge. I also contribute to reporting standards for generative AI in health.
+    description: I develop trustworthy computational pathology models that can reach human-level performance and are built with FDA approval in mind. From industry I have worked across the full pathology AI product path, from research and development through validation, deployment, and regulatory work.
+  - title: Flexible Machine Learning in Medicine
+    description: I am interested in machine learning in the medical domain because it offers a different kind of flexibility than single-task systems. That flexibility is also a step toward agentic AI, models that can reason, use tools, and support clinicians across a workup rather than a single prediction.
+  - title: Knowledge Discovery from Medical Images
+    description: I use medical images to discover knowledge that is not obvious from the slide alone, including biomarker prediction and future outcome prediction, and I care about doing this in a way that is reliable enough to trust.
 
 news: True  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
