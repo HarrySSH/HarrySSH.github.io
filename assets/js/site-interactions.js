@@ -66,45 +66,6 @@
     });
   }
 
-  function initMicroscope() {
-    const root = document.querySelector("[data-ai-scope]");
-    if (!root) return;
-    const stage = root.querySelector(".ai-scope__stage");
-    const surface = root.querySelector(".ai-scope__clip") || stage;
-    const lens = root.querySelector(".ai-scope__lens");
-    if (!stage || !lens) return;
-
-    const park = (x, y) => {
-      root.style.setProperty("--lens-x", `${x}%`);
-      root.style.setProperty("--lens-y", `${y}%`);
-    };
-
-    park(62, 44);
-
-    if (reduceMotion) {
-      root.classList.add("is-static");
-      return;
-    }
-
-    const move = (clientX, clientY) => {
-      const rect = surface.getBoundingClientRect();
-      const x = ((clientX - rect.left) / rect.width) * 100;
-      const y = ((clientY - rect.top) / rect.height) * 100;
-      park(Math.max(0, Math.min(100, x)), Math.max(0, Math.min(100, y)));
-    };
-
-    surface.addEventListener("pointermove", (event) => {
-      move(event.clientX, event.clientY);
-    });
-    surface.addEventListener("pointerdown", (event) => {
-      surface.setPointerCapture(event.pointerId);
-      move(event.clientX, event.clientY);
-    });
-    surface.addEventListener("pointerleave", () => {
-      if (finePointer) park(62, 44);
-    });
-  }
-
   function initNameSwap() {
     const swap = document.querySelector("[data-name-swap]");
     if (!swap) return;
@@ -117,7 +78,6 @@
     initNavbar();
     initReveal();
     initCardTilt();
-    initMicroscope();
     initNameSwap();
   });
 })();

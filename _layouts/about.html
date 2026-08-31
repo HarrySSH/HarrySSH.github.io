@@ -50,10 +50,6 @@ layout: default
             {{ content }}
           </div>
 
-          <div data-reveal>
-            {% include ai_microscope.html %}
-          </div>
-
           {% if page.selected_work %}
           <div class="selected-work">
             <h2 class="section-heading" data-reveal>Selected work</h2>
@@ -65,8 +61,6 @@ layout: default
                   <img
                     src="{{ work.image | prepend: '/assets/img/' | relative_url }}"
                     alt="{{ work.image_alt | default: work.title }}"
-                    width="1200"
-                    height="800"
                     loading="lazy"
                     decoding="async"
                   >

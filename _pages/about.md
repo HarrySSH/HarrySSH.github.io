@@ -30,7 +30,7 @@ selected_work:
     meta: Science Translational Medicine, 2025
     url: https://www.science.org/doi/10.1126/scitranslmed.adq2162
     image: work/deepheme.jpg
-    image_alt: Bone marrow histology with faint AI region outlines
+    image_alt: Figure 1 from the DeepHeme paper, showing the workflow and hematopoietic cell classes
     problem: Bone marrow diagnosis depends on scarce experts, and models often fail when the hospital or scanner changes.
     did: I led a deep ensemble for bone marrow morphometry and hematologic diagnosis, built to generalize across sites.
     outcome: Hematopathologist-level performance, published in Science Translational Medicine.
@@ -38,15 +38,15 @@ selected_work:
     meta: Nature Communications, 2026
     url: https://www.nature.com/articles/s41467-026-77130-x
     image: work/allocate.jpg
-    image_alt: Laboratory microscope over a stained blood smear
+    image_alt: Figure 1 from the ALLocate paper, showing the self-driving microscope system and diagnostic workflow
     problem: Acute leukemia detection is slow and expensive in settings that cannot staff a full hematopathology lab.
     did: We built a low-cost, AI-powered self-driving microscope for leukemia screening.
     outcome: Published in Nature Communications, aimed at making the test actually reachable.
   - title: Ruby → Intuitive
     meta: Founding ML hire, acquired 2025
-    url: https://www.linkedin.com/company/ruby-robotics
+    url: https://www.linkedin.com/posts/jeffschlosser_super-excited-to-continue-the-mission-with-activity-7437166110740852736-1J5J
     image: work/ruby-intuitive.jpg
-    image_alt: Histology slide beside a workstation showing a muted AI overlay
+    image_alt: Figure from Ruby Robotics CEO Jeff Schlosser’s acquisition announcement, showing Intuitive systems and pathology
     problem: Most pathology AI never leaves the paper.
     did: I was the founding ML hire at Ruby Robotics and built the machine learning effort from data and annotation through training and deployment.
     outcome: Acquired by Intuitive. I now ship real-time computational pathology on the ROSE team, in a regulated medical setting.

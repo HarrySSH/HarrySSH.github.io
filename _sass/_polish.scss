@@ -179,16 +179,16 @@
   }
 
   .work-card__media {
-    aspect-ratio: 16 / 10;
+    aspect-ratio: 4 / 3;
     overflow: hidden;
     border-radius: 11px 11px 0 0;
-    background: var(--global-divider-color);
+    background: color-mix(in srgb, var(--global-divider-color) 65%, var(--global-card-bg-color));
 
     img {
       width: 100%;
       height: 100%;
       max-width: none;
-      object-fit: cover;
+      object-fit: contain;
       display: block;
       transform: scale(1);
       transition: transform 420ms var(--ease-out);
@@ -204,7 +204,7 @@
       0 0 0 1px var(--card-glow);
 
     .work-card__media img {
-      transform: scale(1.035);
+      transform: scale(1.02);
     }
   }
 }
@@ -270,112 +270,6 @@
     grid-column: 2;
     margin: 0;
     font-size: 0.95rem;
-  }
-}
-
-// AI microscope
-
-.ai-scope {
-  --lens-size: 68px;
-  margin: 1.35rem 0 0.4rem;
-  max-width: 34rem;
-  width: 100%;
-}
-
-.ai-scope__stage {
-  position: relative;
-  overflow: visible;
-  user-select: none;
-}
-
-.ai-scope__clip {
-  position: relative;
-  overflow: hidden;
-  border-radius: 10px;
-  border: 1px solid var(--global-divider-color);
-  aspect-ratio: 3 / 2;
-  touch-action: none;
-  cursor: crosshair;
-
-  img {
-    position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    max-width: none;
-    margin: 0;
-    pointer-events: none;
-  }
-}
-
-.ai-scope__ai {
-  clip-path: circle(var(--lens-size) at var(--lens-x, 62%) var(--lens-y, 44%));
-}
-
-.ai-scope__lens {
-  position: absolute;
-  top: var(--lens-y, 44%);
-  left: var(--lens-x, 62%);
-  width: calc(var(--lens-size) * 2);
-  height: calc(var(--lens-size) * 2);
-  transform: translate(-50%, -50%);
-  border-radius: 50%;
-  border: 1.5px solid color-mix(in srgb, #fff 80%, var(--global-theme-color));
-  box-shadow:
-    0 0 0 1px color-mix(in srgb, #000 18%, transparent),
-    inset 0 0 18px color-mix(in srgb, var(--global-theme-color) 18%, transparent);
-  pointer-events: none;
-}
-
-.ai-scope__label {
-  position: absolute;
-  left: 50%;
-  bottom: 10px;
-  transform: translateX(-50%);
-  font-size: 0.62rem;
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--global-text-color);
-  background: color-mix(in srgb, var(--global-card-bg-color) 88%, transparent);
-  border: 1px solid var(--global-divider-color);
-  border-radius: 999px;
-  padding: 0.12rem 0.45rem;
-  white-space: nowrap;
-}
-
-.ai-scope__caption {
-  margin-top: 0.55rem;
-  font-size: 0.8rem;
-  color: var(--global-text-color-light);
-}
-
-@media (hover: hover) and (pointer: fine) {
-  .ai-scope__clip {
-    cursor: none;
-  }
-}
-
-@media (min-width: 768px) {
-  .ai-scope {
-    --lens-size: 80px;
-  }
-}
-
-.ai-scope.is-static {
-  .ai-scope__stage,
-  .ai-scope__clip {
-    cursor: default;
-    touch-action: auto;
-  }
-
-  .ai-scope__ai {
-    clip-path: inset(0 0 0 48%);
-  }
-
-  .ai-scope__lens {
-    display: none;
   }
 }
 
@@ -596,10 +490,6 @@ button:focus-visible,
     opacity: 0;
     transform: translateX(4px);
   }
-
-  .ai-scope__clip {
-    cursor: grab;
-  }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -619,7 +509,6 @@ button:focus-visible,
   .name-swap__zh,
   .name-swap__en,
   .sail-egg__boat,
-  .ai-scope__ai,
   .navbar {
     transition: none !important;
     animation: none !important;
@@ -632,13 +521,5 @@ button:focus-visible,
   .news table td,
   .publications ol.bibliography > li {
     opacity: 1 !important;
-  }
-
-  .ai-scope__ai {
-    clip-path: inset(0 0 0 48%) !important;
-  }
-
-  .ai-scope__lens {
-    display: none;
   }
 }
