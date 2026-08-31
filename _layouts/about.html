@@ -4,11 +4,20 @@ layout: default
 
 <!-- about.html -->
       <div class="post">
-        <header class="post-header">
+        <header class="post-header" data-reveal>
           <h1 class="post-title">
-            {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
+            {%- if site.title == "blank" -%}
+              <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}
+            {%- else -%}
+              {{ site.title }}
+            {%- endif %}
           </h1>
-          <p class="desc">{{ page.subtitle }}</p>
+          <p class="desc">
+            <button type="button" class="name-swap" data-name-swap aria-label="Show English reading of Chinese name">
+              <span class="name-swap__zh">{{ page.subtitle }}</span>
+              <span class="name-swap__en">Shenghuan Sun</span>
+            </button>
+          </p>
         </header>
 
         <article>
@@ -37,21 +46,39 @@ layout: default
           </div>
           {%- endif %}
 
-          <div class="clearfix">
+          <div class="clearfix" data-reveal>
             {{ content }}
+          </div>
+
+          <div data-reveal>
+            {% include ai_microscope.html %}
           </div>
 
           {% if page.selected_work %}
           <div class="selected-work">
-            <h2>Selected work</h2>
-            <div class="work-grid">
+            <h2 class="section-heading" data-reveal>Selected work</h2>
+            <div class="work-grid" data-reveal-stagger>
               {% for work in page.selected_work %}
               <article class="work-card">
-                <h3>{% if work.url %}<a href="{{ work.url }}" target="_blank" rel="noopener">{{ work.title }}</a>{% else %}{{ work.title }}{% endif %}</h3>
-                {% if work.meta %}<p class="work-meta">{{ work.meta }}</p>{% endif %}
-                <p><strong>Problem.</strong> {{ work.problem }}</p>
-                <p><strong>What I did.</strong> {{ work.did }}</p>
-                <p><strong>Outcome.</strong> {{ work.outcome }}</p>
+                {% if work.image %}
+                <div class="work-card__media">
+                  <img
+                    src="{{ work.image | prepend: '/assets/img/' | relative_url }}"
+                    alt="{{ work.image_alt | default: work.title }}"
+                    width="1200"
+                    height="800"
+                    loading="lazy"
+                    decoding="async"
+                  >
+                </div>
+                {% endif %}
+                <div class="work-body">
+                  <h3>{% if work.url %}<a href="{{ work.url }}" target="_blank" rel="noopener">{{ work.title }}</a>{% else %}{{ work.title }}{% endif %}</h3>
+                  {% if work.meta %}<p class="work-meta">{{ work.meta }}</p>{% endif %}
+                  <p><strong>Problem.</strong> {{ work.problem }}</p>
+                  <p><strong>What I did.</strong> {{ work.did }}</p>
+                  <p><strong>Outcome.</strong> {{ work.outcome }}</p>
+                </div>
               </article>
               {% endfor %}
             </div>
@@ -61,29 +88,35 @@ layout: default
           <!-- Research Interests -->
           {% if page.research_interests %}
           <div class="research-interests">
-            <h2>Research Interests</h2>
-            {% for interest in page.research_interests %}
-            <p><strong>{{ interest.title }}</strong>: {{ interest.description }}</p>
-            {% endfor %}
+            <h2 class="section-heading" data-reveal>Research interests</h2>
+            <div data-reveal-stagger>
+              {% for interest in page.research_interests %}
+              <div class="interest">
+                <span class="interest__mark" aria-hidden="true"></span>
+                {% if interest.kicker %}<p class="interest__kicker">{{ interest.kicker }}</p>{% endif %}
+                <h3>{{ interest.title }}</h3>
+                <p class="interest__body">{{ interest.description }}</p>
+              </div>
+              {% endfor %}
+            </div>
           </div>
           {% endif %}
 
           <!-- News -->
           {% if page.news and site.announcements.enabled -%}
-          <div class="news">
-            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
+            <h2 class="section-heading" data-reveal><a href="{{ '/news/' | relative_url }}">News</a></h2>
             {%- include news.html limit=true %}
           {%- endif %}
 
           <!-- Latest posts -->
           {% if page.latest_posts -%}
-            <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">latest posts</a></h2>
+            <h2 class="section-heading"><a href="{{ '/blog/' | relative_url }}">Latest posts</a></h2>
             {%- include latest_posts.html %}
           {%- endif %}
 
           <!-- Selected papers -->
           {% if page.selected_papers -%}
-            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
+            <h2 class="section-heading" data-reveal><a href="{{ '/publications/' | relative_url }}">Selected publications</a></h2>
             {%- include selected_papers.html %}
           {%- endif %}
 
