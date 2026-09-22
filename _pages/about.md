@@ -11,7 +11,6 @@ profile:
   image_circular: false
   more_info: >
     <p>Senior ML Scientist @ Intuitive</p>
-    <p>Adjunct Assistant Professor @ UCSF</p>
 
 research_interests:
   - kicker: Pathology
@@ -63,8 +62,6 @@ I build computational pathology AI meant to reach **human-level performance** an
   <li><strong>DeepHeme</strong>: hematopathologist-level bone marrow morphometry, <em>Science Translational Medicine</em>.</li>
   <li><strong>ALLocate</strong>: a low-cost self-driving microscope for acute leukemia detection, <em>Nature Communications</em>.</li>
 </ul>
-
-I am also an Adjunct Assistant Professor at [UC San Francisco](https://www.ucsf.edu/), where I mentor graduate students on medical vision-language models and taught the inaugural Foundations in Machine Learning course for the [AI and Computational Drug Discovery and Development (AICD3)](https://pharm.ucsf.edu/aicd3) MS program.
 
 I completed my PhD in Computational Biology at UCSF, co-advised by [Atul Butte, MD, PhD](https://profiles.ucsf.edu/atul.butte) and [Ahmed Alaa, PhD](https://ahmedmalaa.github.io/), and worked closely with [Gregory Goldgof, MD, PhD](https://www.mskcc.org/cancer-care/doctors/gregory-goldgof) and [Iain Carmichael, PhD](https://idc9.github.io/). I wrote a short [remembrance of Atul]({{ '/remembering-atul/' | relative_url }}).
 

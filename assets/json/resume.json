@@ -4,7 +4,7 @@
     "label": "Senior Machine Learning Scientist",
     "email": "shenghuan.sun@ucsf.edu",
     "url": "https://harryssh.github.io/",
-    "summary": "Senior ML Scientist at Intuitive Surgical and Adjunct Assistant Professor at UCSF. I build and deploy computer vision and multimodal AI systems for computational pathology, from research through production in regulated clinical settings."
+    "summary": "Senior ML Scientist at Intuitive Surgical. I build and deploy computer vision and multimodal AI systems for computational pathology, from research through production in regulated clinical settings."
   },
   "work": [
     {
@@ -16,18 +16,6 @@
       "highlights": [
         "Lead research, development, and deployment of computer vision models to support clinical decision-making and next-generation surgical workflows.",
         "Work across large-scale pathology data, model validation, and production systems."
-      ]
-    },
-    {
-      "name": "University of California, San Francisco",
-      "position": "Adjunct Assistant Professor",
-      "url": "https://www.ucsf.edu/",
-      "startDate": "2024-09",
-      "summary": "Teaching and mentoring at the intersection of machine learning and biomedicine.",
-      "highlights": [
-        "Taught the inaugural Foundations in Machine Learning course for the AI and Computational Drug Discovery and Development (AICD3) MS program.",
-        "Mentor graduate students on research projects in medical vision-language models.",
-        "Designed and delivered curriculum covering core machine learning concepts and applications in biomedical domains."
       ]
     },
     {
